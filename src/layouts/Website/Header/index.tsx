@@ -1,7 +1,7 @@
-const WebsiteHeader = () => {
-  return (
-    <div color="primary">WebsiteHeader</div>
-  )
-}
+import { Typography } from "@mui/material";
 
-export default WebsiteHeader
+const WebsiteHeader = () => {
+	return <Typography color="primary">WebsiteHeader</Typography>;
+};
+
+export default WebsiteHeader;

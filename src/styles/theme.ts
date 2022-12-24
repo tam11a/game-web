@@ -1,4 +1,3 @@
-import { red } from '@mui/material/colors';
 import { experimental_extendTheme, PaletteColorOptions } from '@mui/material';
 
 import type {} from "@mui/material/themeCssVarsAugmentation";
@@ -62,7 +61,8 @@ const theme = experimental_extendTheme({
     },
     typography: {
         fontFamily: 'Raleway, sans-serif'
-    }
+    },
+   
 });
 
 export default theme;
