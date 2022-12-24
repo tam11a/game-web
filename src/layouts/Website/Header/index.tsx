@@ -1,6 +1,6 @@
 const WebsiteHeader = () => {
   return (
-    <div>WebsiteHeader</div>
+    <div color="primary">WebsiteHeader</div>
   )
 }
 

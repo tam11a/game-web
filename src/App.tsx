@@ -1,11 +1,19 @@
 import BaseRoutes from "./routes"
+import { ThemeProvider } from '@mui/material/styles';
+import theme from "./styles/theme";
+import { CssBaseline, GlobalStyles } from '@mui/material'
+
 
 function App() {
- 
+
   return (
-   <>
-    <BaseRoutes />
-   </>
+    <>
+      <ThemeProvider theme={theme}>
+        <CssBaseline />
+        <GlobalStyles styles={{}}/>
+        <BaseRoutes />
+      </ThemeProvider>
+    </>
   )
 }
 
