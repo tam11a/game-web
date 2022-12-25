@@ -1,7 +1,17 @@
-const Home = () => {
-  return (
-    <div>Home</div>
-  )
-}
+import { Button } from "@mui/material";
 
-export default Home
+const Home = () => {
+	return (
+		<div>
+			<Button
+				variant="contained"
+				sx={{ m: 2 }}
+				className={"bg-gradient-to-r from-cyan-500 to-blue-500"}
+			>
+				Hello from Website!!
+			</Button>
+		</div>
+	);
+};
+
+export default Home;

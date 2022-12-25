@@ -1,0 +1,27 @@
+/* @tailwind base; */
+/* @tailwind components; */
+@tailwind utilities;
+
+.gradient-dp:before {
+    content: "";
+    position: absolute;
+    top: 2.4px;
+    left: 2.5px;
+    width: calc(100% - 5px);
+    height: calc(100% - 5px);
+    z-index: -2;
+    border-radius: 1000px;
+    background: linear-gradient(180deg, #0074FD 0%, #00D1FF 100%);
+}
+
+.gradient-dp:after {
+    content: "";
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    width: calc(100% - 8px);
+    height: calc(100% - 8px);
+    z-index: -1;
+    border-radius: 1000px;
+    background: #172331;
+}
