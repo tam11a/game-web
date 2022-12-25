@@ -1,5 +1,5 @@
 import { lazy } from "react";
-import { PUBLIC_ROUTES } from "./paths";
+import { ROUTES as PUBLIC_ROUTES } from "./paths";
 
 export const publicRoutes = [
     {

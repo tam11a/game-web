@@ -1,9 +1,6 @@
-export const PUBLIC_ROUTES = {
+export const ROUTES = {
 	HOME: '/',
-};
-
-export const PRIVATE_ROUTES = {
-	DASHBOARD: '',
-	SETTINGS: 'settings',
-	SETTINGS_PROFILE: 'settings/profile',
+	COMPETE: '/compete',
+	LEADERBOARD: '/leaderboard',
+	FEED: '/feed'
 };
