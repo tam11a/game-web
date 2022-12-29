@@ -2,7 +2,6 @@ import {
 	AppBar,
 	Avatar,
 	Box,
-	Container,
 	Grid,
 	Hidden,
 	IconButton,
